@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+package myprojecthelloworld;
+
+/**
+ *
+ * @author cinti
+ */
+public class MyProjectHelloWorld {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println ("Hello Fucking World!");
+        String myName ="Cintia";
+              myName = ("Cintia");
+        System.out.println ("Hello" + "myName"+ ".How are You?");
+    }
